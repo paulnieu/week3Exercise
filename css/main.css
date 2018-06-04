@@ -1,0 +1,43 @@
+/* navagation links */
+ ul{
+   color:white;
+   text-align: center;
+   background-color: red;
+ }
+li{
+  display: inline-block;
+  background-color: blue;
+  margin: 50px 20px 20px 50px;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+a{
+  color: white;
+  font-size: 1em;
+}
+/* hover effect */
+a:hover{
+  background-color: yellow;
+  border: solid;
+  transition:.05s ease;
+  font-size: 2em;
+  color: black;
+}
+/* button elements */
+.button{
+  display: inline;
+  background-color: green;
+ border: 10px;
+ color: black;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 16px;
+ margin:50px
+}
+
+button:hover{
+  background-color: darkgreen;
+  color:white;
+}
